@@ -11,7 +11,7 @@ module.exports = {
     author: "@webdev",
     twitterUsername: "@john_smilga",
     image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    siteUrl: "https://testing-strapi-gatsby-build.netlify.app"
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -22,8 +22,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
-        path: `${__dirname}/src/assets/`,
-      },
+        path: `${__dirname}/src/assets/`
+      }
     },
     {
       resolve: `gatsby-source-strapi`,
@@ -33,10 +33,10 @@ module.exports = {
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        contentTypes: [`jobs`],
-        singleTypes: [],
-      },
-    },
+        contentTypes: [`jobs`, `projects`],
+        singleTypes: []
+      }
+    }
     // {
     //   resolve: `gatsby-plugin-webfonts`,
     //   options: {
@@ -51,5 +51,5 @@ module.exports = {
     //     },
     //   },
     // },
-  ],
+  ]
 }
