@@ -428,8 +428,10 @@ Hero
   background: var(--clr-primary-10);
 }
 .hero-img {
+  display: none;
  margin-left: 35px;
 left: 295px;
+
 
 }
 .hero-info h4 {

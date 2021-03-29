@@ -28,16 +28,18 @@ const Hero = () => {
         <article className={"hero-info"}>
           <div>
             <div className="underline"></div>
-              <h1>I'm Arjun Gautam</h1>
-              <h4>Java | Full Stack Developer</h4>
-              <Link to={"/contact"} className={"btn"}>
-                Contact me
-              </Link>
-            <SocialLinks/>
-            </div>
+            <h1>I'm Arjun Gautam</h1>
+            <h4>Java | Full Stack Developer</h4>
+            <Link to={"/contact"} className={"btn"}>
+              Contact me
+            </Link>
+            <SocialLinks />
+          </div>
 
         </article>
         <Image fluid={fluid} className={"hero-img"} />
+
+
       </div>
     </header>
   )
