@@ -10,8 +10,8 @@ module.exports = {
      description: "This is Arjun Portfolio Site",
     author: "@arjungautam",
      twitterUsername: "@laserarjun876",
-    image: "/hero-img.png",
-    siteUrl: `https://arjungautam.netlify.app/`,
+    image: "/hero.png",
+    siteUrl: "https://arjungautam.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,
