@@ -1010,7 +1010,7 @@ Blog Template
 
 .blog-template h1,
 .blog-template h2 {
-  text-align: center;
+  text-align: left;
 }
 .blog-template ul {
   margin-top: 2rem;
