@@ -6,12 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
-    description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
-    image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app"
+     title: "Arjun Gautam",
+     description: "This is Arjun Portfolio Site",
+    author: "@arjungautam",
+     twitterUsername: "@laserarjun876",
+    image: "/hero-img.png",
+    siteUrl: `https://www.gatsbyjs.com`,
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -36,20 +36,20 @@ module.exports = {
         contentTypes: [`jobs`, `projects`,`blogs`],
         singleTypes: [`about`]
       }
-    }
-    // {
-    //   resolve: `gatsby-plugin-webfonts`,
-    //   options: {
-    //     fonts: {
-    //       google: [
-    //         {
-    //           family: "Roboto",
-    //           variants: ["400", "700"],
-    //         },
-    //         { family: "Open Sans" },
-    //       ],
-    //     },
-    //   },
-    // },
+    },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Roboto",
+              variants: ["400", "700"],
+            },
+            { family: "Open Sans" },
+          ],
+        },
+      },
+    },
   ]
 }
