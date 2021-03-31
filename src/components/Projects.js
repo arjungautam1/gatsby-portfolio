@@ -12,7 +12,7 @@ const Projects = ({projects,title,showLink}) => {
         })}
       </div>
       {showLink && <Link to={'/projects'} className={"btn center-btn"}>
-        Projects
+        More Projects
       </Link> }
     </section>
   )
