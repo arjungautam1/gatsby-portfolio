@@ -35,8 +35,9 @@ const About = ({data:{about:{nodes},},}) => {
             {/*  Download Resume*/}
             {/*</Link>*/}
 
-            <button className="btn">
-              <i className="fa fa-download"></i><a href={resume} download={"resume.pdf"}> Download Resume
+            <button  className={"btn-about"} >
+              <a style={{color:"white"}} href={resume} download={"resume.pdf"}>
+                Download Resume
             </a></button>
 
           </article>
