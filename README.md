@@ -1,3 +1,3 @@
 ## Portfolio
 
-[Live] To be deployed/
+[Click here to visit my website](https://arjungautam.netlify.app/)
