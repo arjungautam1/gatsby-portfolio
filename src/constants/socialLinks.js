@@ -25,7 +25,7 @@ const data = [
   },
   {
     id: 7,
-    icon: <FaYoutubeSquare className="social-icon"></FaYoutubeSquare>,
+    icon: <FaYoutube className="social-icon"></FaYoutube>,
     url: "https://www.youtube.com/channel/UCJyDMA1hY0gWrCylFD963DA",
   },
   {
@@ -36,7 +36,7 @@ const data = [
   {
     id: 4,
     icon: <FaInstagram className="social-icon"></FaInstagram>,
-    url: "https://www.instagram.com/laserarjun/",
+    url: "https://www.instagram.com/arjungautam5431/",
   },
 
   {
