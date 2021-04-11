@@ -29,11 +29,14 @@ const About = ({data:{about:{nodes},},}) => {
 
             </div>
             <br/>
-            {/*<Link to={""} className={"btn"}>*/}
 
+            <button  className={"btn-about"} >
+            <a href="https://arjunresume.netlify.com" target="_blank"
+            > Resume Link</a>
+            </button>
 
-            {/*  Download Resume*/}
-            {/*</Link>*/}
+            <br/>
+            <br/>
 
             <button  className={"btn-about"} >
               <a style={{color:"white"}} href={resume} download={"resume.pdf"}>
